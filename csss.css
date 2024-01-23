@@ -1,0 +1,277 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #F06000;
+    /* Couleur de survol */
+}
+
+
+/* Style pour la photo de profil dans la navbar */
+
+.profile-pic img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+*{
+    font-family:Avenir,sans-serif;
+    text-align:jestify ;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgba(238, 169, 169, 0.781);
+}
+p{
+    font-size: 1;
+    line-height: 1.5;
+}
+a{
+    color: #000;
+}
+header{
+    width: 100%;
+    padding: 20px;
+    background: color #4f4f4f; 
+    box-shadow: 0px 0px 15px #333;
+}
+header{
+    height: 120px;
+}
+header h1{
+    color: white;
+    font-size: 1.5;
+    width: 90%;
+    margin: 0 auto;
+}
+section{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding-bottom: 10px;
+    margin:30px auto;
+    box-shadow: 0px 0px 10px;
+    background-color:#fff;
+}
+section h2{
+    margin: 20px;
+    width:90%;
+}
+section  div{
+    width: 90%;
+}
+.photo{
+    text-align: center;
+
+}
+.photo img{
+    width: 150px;
+    height: 150px;
+    border: 3px;
+    border-radius: 80%;
+    margin-top: -80px;
+}
+.prez{
+    border-bottom: 2px;
+}
+.prez a{
+    display: block;
+    text-align:center;
+    padding: 10px;
+    margin:10px ;
+    color:#fff;
+    background-color:rgba(238, 169, 169, 0.781);
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5px;
+}
+.contact-info{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.contact-info p:first-child{
+    flex :40%;   
+}
+.contact-info p:last-child{
+    flex: 60%;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    margin:10px auto 0px auto;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+}
+.exp{
+    display:flex;
+    flex-flow: row wrap;
+    border-bottom: 1px  ;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.exp-info{
+    display: flex;
+    flex-flow: coumn wrap;
+    
+
+}
+.exp-logo{
+    flex:    10%;
+    width: 100px;
+}
+.exp-info {
+
+    flex: 85%;
+    margin-left: auto;
+}
+ .exp img{
+    width: 100%;
+}
+.exp h3{
+    font-size: 1.2;
+}
+.exp h4{
+    font-size: 1em;
+    font-weight: normal;
+}
+.comp{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+}
+.comp p{
+    flex:0 0 40%;
+}
+
+.conteneur-barre{
+    flex :0 0 60%;
+    height: 1cm;
+    border-radius: 5px;
+    border-bottom: 1 px ;
+    background-color: grey;
+}
+.barre{
+    display: block;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.c80{
+    width:80%;
+    background-color: #488;
+   
+ 
+}
+.c70{
+    width: 70%;
+    background-color: #488;
+   
+}
+.c100{
+   
+    width: 100%;
+    background-color: #488;
+   
+    
+}
+.comp2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+}
+.conteneur-barre2{
+    flex:  0 0 100%;
+    height: 0.4cm;
+    margin-bottom: 0.25cm;
+    border-radius: 5px;
+    background-color: grey;
+
+}
+.c90{
+    width:90%;
+    background-color: #488;
+}
+.c85{
+    width: 85%;
+    background-color: #488;
+
+}
+.c95{
+    width: 95%;
+    background-color: #488;
+}
+
+
+div h3{
+    text-align: center;
+}
+.exp-logo img{
+    height: 90%;
+    width: 90%;
+}
+.entre{
+    display:flex;
+}
+.web{
+    display: flex;
+}
+
+
+.formation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formation-entre{
+  display: flex;
+  align-items: center; 
+  margin-bottom: 20px; 
+}
+.formation-web{
+    display: flex;
+    align-items: center; 
+    margin-bottom: 20px; 
+  }
+
+.logo img {
+  margin-right: 20px; 
+  height: auto;
+}
+.logo img{
+    width: 200px;
+    height:auto
+}
+.logo{
+    margin-right: 20px;
+}
+.text-content{
+    display: flex;
+    flex-direction: column;
+}

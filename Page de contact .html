@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Page de Contact</title>
+    <link rel="stylesheet" href="csss.css">
+    <style>
+  
+        header{ width: 100%;
+                padding: 40px;
+                box-shadow: 0px 0px  15px #333;
+                text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        form {
+            display: block;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #413e3e;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        legend {
+            margin: 30px;
+        }
+
+
+        table {
+            width: 100%;
+        }
+
+        table td {
+            padding: 10px;
+        }
+
+        button {
+            margin-top: 30px;
+            text-align: center;
+            
+        }
+        fieldset{
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+   
+        <nav>
+            <h1>Nour Bahloul</h1>
+            <ul>
+              
+             
+        
+        
+              <li><a href="pagedacceuil.html">page d'acceuil</a></li>
+              <li><a href="parcoursacademique.html">About</a></li>
+              <li><a href="compétances informatiques.html">Education</a></li>
+              <li><a href="Mes formations.html">Courses</a></li>
+              <li><a href="matiere.html">Skills</a></li>
+              <li><a href="passions.html">Works</a></li>
+              <li><a href="Quiz.html">Certification</a></li>
+              <li><a href="pagedacceuil.html">Hobbies</a></li>
+              <li><a href="temoignage.html">Quizz</a></li>
+             
+       
+            </ul>
+          </nav>
+        <nav>
+            <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="a-propos.html">À Propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <fieldset>
+        <legend>Contactez-moi</legend>
+        <p>Utilisez le formulaire ci-dessous pour m'envoyer un email :</p>
+
+        <form action="traitement_formulaire.php" method="post">
+            <table>
+                <tr>
+                    <td><label for="nom">Nom :</label></td>
+                    <td><input type="text" id="nom" name="nom" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email :</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="message">Message :</label></td>
+                    <td><textarea id="message" name="message" required></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit">Envoyer</button></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+    </main>
+
+  
+</body>
+</html>
